@@ -1,0 +1,17 @@
+
+# Essa propriedade está indicando que esse é o editorConfig principal
+# da aplicação
+
+# Pois pode ter outros editorConfig em outras pastas
+
+root = true
+
+# Isso indica que as regras abaixo vão valer para todo o tipo de arquivo
+
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true

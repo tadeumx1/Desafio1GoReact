@@ -1,0 +1,21 @@
+
+// Com isso estamos setando as configurações do Babel
+// Babel Preset Env vai ver onde a aplicação vai estar rodando
+// Caso for um navegador ele vai identificar quais funcionalidades
+// do ES6 e do Javascript não entende ainda e vai transpilar elas
+
+// Já o Babel Preset React vai transpilar o código JSX
+// e essas funcionalidades do React
+
+// Também estamos utilizando um plugin do babel o transform-class-properties
+// Que vai nos permitir declarar as propTypes dentro do componente utilizando o static
+// e declarando as props e os tipos que estão sendo utilizados
+
+{
+
+    "presets": ["@babel/preset-env","@babel/preset-react"],
+    "plugins": [
+        "transform-class-properties"
+    ]
+
+}
